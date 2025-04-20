@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iranian Clothing Museum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Iranian Clothing Museum</h1>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p>Explore traditional Iranian outfits and learn more about their cultural significance.</p>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item" onclick="viewDetails('Clothing 1', 'https://via.placeholder.com/300x400?text=Clothes+1')">
+                <img src="https://via.placeholder.com/300x400?text=Clothes+1" alt="Clothing 1">
+                <div class="description">Clothing 1</div>
+            </div>
+            <div class="gallery-item" onclick="viewDetails('Clothing 2', 'https://via.placeholder.com/300x400?text=Clothes+2')">
+                <img src="https://via.placeholder.com/300x400?text=Clothes+2" alt="Clothing 2">
+                <div class="description">Clothing 2</div>
+            </div>
+            <div class="gallery-item" onclick="viewDetails('Clothing 3', 'https://via.placeholder.com/300x400?text=Clothes+3')">
+                <img src="https://via.placeholder.com/300x400?text=Clothes+3" alt="Clothing 3">
+                <div class="description">Clothing 3</div>
+            </div>
+        </div>
+        <div class="button-container">
+            <button class="button" onclick="goBack()">Back to previous page</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 Iranian Virtual Clothing Museum</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

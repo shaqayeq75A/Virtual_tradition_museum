@@ -1,0 +1,77 @@
+
+body {
+    font-family: 'Tahoma', sans-serif;
+    background-color: #f4f0e1;
+    text-align: center;
+    padding: 20px;
+}
+header {
+    background-color: #002147;
+    color: #f4e1d2;
+    padding: 20px;
+    font-size: 2rem;
+}
+.container {
+    margin-top: 40px;
+}
+.intro {
+    font-size: 1.5rem;
+    color: #c97f47;
+    margin-bottom: 30px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 20px;
+}
+.gallery-item {
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+.gallery-item .description {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.button-container {
+    margin-top: 20px;
+}
+.button {
+    background-color: #c97f47;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #a65a2d;
+}
+.footer {
+    background-color: #002147;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
